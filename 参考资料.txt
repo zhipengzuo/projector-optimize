@@ -1,0 +1,40 @@
+大家可以贡献的内容：
+包括不限于代码分享，方案提供，pr等
+
+有pr尽量都合入到社区的代码中
+
+projector主要优化方向：
+● 网络传输
+● 渲染性能
+● 减少传输数据
+● 终端卡顿
+● 拖拽卡顿
+
+
+做好性能采集
+
+
+参考资料：
+官方文档地址：
+https://jetbrains.github.io/projector-client/mkdocs/latest/
+
+核心人员把projector写成的毕业论文：
+
+
+有人之前做过client的代码优化，但是没有合入master，可以参考，可以挑一些合入master
+https://github.com/JetBrains/projector-client/pull/18
+
+服务端打点：
+https://github.com/JetBrains/projector-server/pull/53
+
+官方的优化思路，但是还没有实现：
+https://youtrack.jetbrains.com/issue/PRJ-485
+
+终端卡顿：
+https://youtrack.jetbrains.com/issue/PRJ-389
+
+代码的一些注释参考：
+可以看芋艿之前的注释
+https://gitee.com/zhijiantianya/projector-client
+https://gitee.com/zhijiantianya/projector-server
+
