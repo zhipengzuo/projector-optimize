@@ -9,7 +9,7 @@
 
   重命名 projector-demo 目录下 local.properties 文件
   ```
-  mv local.properties..example local.properties
+  mv local.properties.example local.properties
   ```
   local.properties 指定运行本地 projector-server
   ```
